@@ -1,0 +1,13 @@
+[jenkins-master]
+13.232.181.14
+
+[jenkins-master:vars]
+ansible_user=ubuntu
+ansible_ssh_private_key_file=/opt/Devopsbuddy.pem
+
+[jenkins-slave]
+65.2.148.116
+
+[jenkins-slave:vars]
+ansible_user=ubuntu
+ansible_ssh_private_key_file=/opt/Devopsbuddy.pem
