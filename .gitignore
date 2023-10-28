@@ -1,0 +1,5 @@
+**/Devopsbuddy.pem
+**/.terraform/*
+**/*.tfstate.*
+**/*.tfstate
+**/.terraform.*
