@@ -20,6 +20,6 @@
 
   - name: extract maven package
     unarchive:
-      srd: /opt/apache-maven-3.9.5-bin.tar.gz
+      src: /opt/apache-maven-3.9.5-bin.tar.gz
       dest: /opt
       remote_src: yes
